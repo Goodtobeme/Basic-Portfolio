@@ -1,10 +1,8 @@
     <!DOCTYPE html>
     <html>
     <head>
-    	<title>About Me</title>
-   
-      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    	<title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
       <header id="masthead">
@@ -17,34 +15,41 @@
         </nav>   
         </div>
       </header>
-   <div id="Main-container" class="container"></div>
-      <section class="main-section">
-      	<h1>Contact</h1>
 
+   <div id="Main-container" class="container">
+      <section class="Contact-section">
+
+      	<h1>Contact</h1>
         <form id="contact-form">
-          <ul>
+          <ul style="list-style-type:none">
               <li> 
-                  <Label for="name">Name</Label>
-                  <input type="text" name="name"
+                  <Label for="name">Name</Label><br>
+                  <input type="text" name="name" size="100"
                    id="name" placeholder="Eugene Beckwith" required="required">
               </li>
               <li>
                   <Label for="email">Email</Label>
-                  <input type="text" name="email" 
+                  <br>
+                  <input type="text" name="email" size="100"
                   id="email" placeholder="example@ymail.com" required="required">
               </li>
               <li>
                   <Label for="message">Message</Label>
+                  <br>
                   <textarea id="message" name="message"
-                   required="required"></textarea>
+                   textarea rows= "16" cols="90"></textarea>
               </li>
           </ul>
-                <input type="submit" name="submit">
         </form>
 
-      	 </section>
+        <div id="submit">Submit</div>
+                   
+               </div>
+
+           </section>
+         </div>
      
-      <section class="sidebar">
+      <section class="sidebar2">
         <div id="connect">
          <h2>Connect with Me</h2>
 
@@ -53,13 +58,15 @@
                  <img src="assets/images/images.jpg" width="62px" height="62px">
        </div>
       </section>
-      </div>
+      
+  
 
       <footer>
         <div class="container">
-              &copy; Copyright 2016 Your Name
+              &copy; Copyright 2016 Eugene Beckwith
+
       </footer>
-      </div>
+    
 
 
     </body>

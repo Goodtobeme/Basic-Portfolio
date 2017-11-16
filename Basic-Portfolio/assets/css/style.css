@@ -1,16 +1,17 @@
 * {
   box-sizing: border-box;
 }
-
+/* This styles the body*/
 body {
-  background: url('../images/concrete_seamless.png');
+  /*background: url('../images/concrete_seamless.png');
+*/  background-color: #EFEFEF;
    font-size: 18px;
    line-height: 34px;
    font-family: 'Arial', 'Helvetica Neve', Helvetica,
    sans-serif;
    color: #777;
 }
-
+ /* Sets the style for the container*/
 .container {
   width: 100%
   max-width: 960px;
@@ -18,29 +19,29 @@ body {
   clear: both;
 }
 
+ /*Sets bottom margin for h1,h2,h3, p tags*/
 h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
-p:last-child {
-  margin-bottom:  0;
-}
-
+ /* Sets styling for font-family, font-weight, color*/
 h1, h2, h3 {
-  font-family:  'Georgia', Times, Times New Roman,
+  font-family: 'Georgia', Times, Times New Roman,
   serif;
   font-weight: 700;
   color: #4aaaa5;
 }
-
+ /*Styling for All h1 tags*/
 h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
   padding-bottom: 20px;
+  margin-left: -3px;
+  padding-top: 13px;
 }
-
-h2, h3 {
+  /*Styling for All h2,h3 tags*/
+h2, h3, {
   font-size: 22px;
 }
 
@@ -53,7 +54,8 @@ h2, h3 {
   /*position: fixed;*/
   width: 100%;
 }
-
+  
+  /*This is for Your Name logo*/
 #Logo {
   width: 250px;
   height: 90px;
@@ -66,13 +68,17 @@ h2, h3 {
   font-weight: 700;
   font-size: 30px;
   text-decoration: none;
+  margin-left: 170px;
 }
 
+ /* Navigation settings for Contact Me*/
 nav {
   float: right;
   margin-top: 25px;
+   margin-right: 217px
 }
 
+  /*Navigation settings for nav a tags*/
 nav a {
   color: #999;
   text-decoration: none;
@@ -83,14 +89,87 @@ nav a {
   line-height: 18px;
 }
 
-nav a:first-child {
-  border-left: 0 none;
+
+  
+  /*Cat img for index page*/
+ #img1 {
+  clear: both;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  float: left;
+  margin-left: -6px;
+  display: block;
+  }
+  
+  /*Paragrah for index page*/
+p {
+  clear: both;
+  width: 421px;
+  height: 407px;
+  margin-top: -313px;
+  margin-left: 336px;
+  float: left;
+  display: block;
 }
 
+ /*Connect with Me sidebar for index page*/
+.sidebar1 {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  float: sright;
+  border: 1px solid #EBEBEB;
+  margin-top: 37px;
+  margin-left: 1025px;
+  display: block;
+  position: static;
+}
+
+
+  /*Portfolio images*/
 #main-container {
-  padding-top: 130px;
+  padding-top: 130px; 
 }
 
+  /*Settings for Hangman img*/
+ .work1 {
+    margin-left: -4px;
+    margin-top: 29px;
+    position: absolute;
+    display: block;
+  }
+  
+ /* Settings for RPG img*/
+  .work2 {
+    margin-left: 405px;
+    margin-top: 50px;
+    position: absolutes;
+  }
+
+  /*Settings for Trivia Game */
+  .work3 {
+    margin-left: -1px;
+    margin-top: 46px;
+    position: absolute;
+  }
+
+  /*Settings for Rutgers Info Widget img*/
+  .work4 {
+    margin-left: 405px;
+    margin-top: 49px;
+    display: block;
+  }
+
+  /*Settings for Rock Paper Scissors img*/
+  .work5 {
+    margin-left: -2px;
+    margin-top: 34px;
+    display: block;
+  }
+  
+  /*Main section for Portfolio*/
 .main-section {
   background: #fff;
   padding: 30px;
@@ -99,34 +178,84 @@ nav a:first-child {
   max-width: 650px;
   float: left;
   border: 1px solid #ddd;
-
+  margin-left: 168px;
+  margin-top: -120px;
+  width: 814px;
 }
-
-.auth-imag {
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
+  /*This is for Contact form*/
+.Contact-section {
+  clear: both;
+  background: #fff;
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%
+  max-width: 650px;
   float: left;
-  margin-right: 25px;
+  border: 1px solid #EBEBEB;
+  margin-left: 166px;
+  margin-top: 51px;
+  width: 796px;
+  height: 656px;
 }
 
-.sidebar {
+/*Submit button in Contact page*/
+  #submit {
+    width: 137px;
+    height: 47px;
+    background-color: #4AAAA5;
+    font-family: 'Georgia';
+    font-size: 24px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 40px;
+    padding-top: 6px;
+
+  }
+
+/*Connect with Me sidebar for Contact page*/
+.sidebar2 {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 300px;
+  float: right;
+  border: 1px solid #EBEBEB;
+  margin-top: 47px;
+  margin-right: 192px;
+  display: block;
+  position: static;
+}
+
+ /*This is for About page*/
+.About-section {
+  background: #fff;
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%
+  max-width: 650px;
+  float: left;
+  border: 1px solid #ddd;
+  margin-left: 161px;
+  margin-top: 5px;
+}
+
+  /*Connect with Me sidebar Portfolio page*/
+.sidebar3 {
   background: #fff;
   padding: 30px;
   width: 100%;
   max-width: 270px;
   float: right;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
+  border: 1px solid #EBEBEB;
+  margin-top: -121px;
+  margin-right: 232px;
+  display: block;
+  position: static;
 }
 
-h3, .sidebar, h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-}
-
+ /* Social Media icons for Index, Contact, Portfolio*/
 .social {
 width: 62px;
 height: 62px;
@@ -138,7 +267,8 @@ margin-right: 5px;
   margin-right: 0;
 
    }
-
+     
+  /*For all footers*/
    footer {
   background: #666;
   color: #fff;
@@ -148,6 +278,7 @@ margin-right: 5px;
   color: #ccc;  
   font-size: 12px;
   text-align: center;
+  margin-bottom: 28px;
 }
 
 .work {
