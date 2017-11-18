@@ -195,9 +195,16 @@ p {
   margin-left: 166px;
   margin-top: 51px;
   width: 796px;
-  height: 656px;
+  height: 708px;
 }
 
+input[type=text] {
+    width: 100%;
+    height: 40px;
+   /* padding: 2px 20px;*/
+    margin: 8px 0;
+    box-sizing: border-box;
+} 
 /*Submit button in Contact page*/
   #submit {
     width: 137px;
